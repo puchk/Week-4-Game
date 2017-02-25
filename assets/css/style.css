@@ -1,0 +1,59 @@
+body {
+	background: url("../images/background.png");
+}
+.row {
+	margin-top: 10px;
+}
+#header {
+	background: rgb(201,113,38);
+	padding: 30px;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+#instructions {
+	background: rgb(251,230,204);
+	padding: 15px;
+}
+#chosenNumber {
+	background: rgb(91,200,128);
+	height: 100px;
+	margin-right: 5px;
+	padding-top: 15px;
+	font-size: 35px;
+}
+#counters{
+	background: rgb(183,219,222);
+	line-height: 2;
+	height: 100px;
+}
+
+.crystal{
+	width: 100%;
+	border: 1px solid black;
+	box-shadow: 9px 9px 5px #999;
+}
+.crystal:hover {
+	filter: brightness(80%);
+}
+.crystal:active {
+  box-shadow: 5px 5px 5px #666;
+  transform: translateY(4px);
+}
+
+.changePadding{
+	padding-left: 0;
+}
+
+#totalScoreText{
+	background: rgb(43,162,150);
+	padding: 5px 15px;
+	color: white;
+}
+#totalScore{
+	background: rgb(43,162,150);
+	font-size: 35px;
+	height: 100px;
+	padding-top: 15px;
+	color: white;
+}
