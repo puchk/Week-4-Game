@@ -1,7 +1,7 @@
 ## HW - {Crystals Collector Game}
 
 ### Live Link
- - www.example.com
+ - https://puchk.github.io/Week-4-Game/
 
 ### Instructions/Requirements
   - There will be four crystals displayed as buttons on the page.
