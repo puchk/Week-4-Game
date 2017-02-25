@@ -18,3 +18,11 @@
 ### Technologies Used
   - Jquery for Dom Manipulation
   - Bootstrap for page layout
+
+### Code Example of using Jquery
+ - $('#crystal1').on("click", function(){
+ -	score += firstCrystal;
+ -	$('#totalScore').text(score);
+ -	buttonClick.play();
+ -	endGame();
+ - });
